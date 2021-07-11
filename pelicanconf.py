@@ -4,12 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Marcos Alano'
 SITENAME = "Trust Me, I'm a Linux Engineer!"
-#SITEURL = 'https://mhalano.github.io'
+#SITEURL = 'http://mhalano.github.io'
 
 STATIC_PATHS = ['images']
 
 # Nada de temas usando Bootstrap
-#THEME='pelican-themes/new-bootstrap2'
+THEME='pelican-themes/bootstrap2-dark'
 
 #JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
@@ -29,7 +29,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/Sao_Paulo'
 
-DEFAULT_LANG = 'pt_br'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 #FEED_ALL_ATOM = None
