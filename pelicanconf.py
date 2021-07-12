@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
@@ -9,7 +9,7 @@ SITENAME = "Trust Me, I'm a Linux Engineer!"
 STATIC_PATHS = ['images']
 
 # Nada de temas usando Bootstrap
-THEME='pelican-themes/bootstrap2-dark'
+THEME='pelican-themes/gum'
 
 #JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
@@ -29,7 +29,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/Sao_Paulo'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = 'en_us'
 
 # Feed generation is usually not desired when developing
 #FEED_ALL_ATOM = None
