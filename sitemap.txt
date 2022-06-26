@@ -1,0 +1,14 @@
+/index.html
+/archives.html
+/tags.html
+/categories.html
+/
+/tags.html
+/categories.html
+/authors.html
+/archives.html
+/pages/about.html
+/first-post.html
+/category/categoria.html
+/tag/tag.html
+/author/marcos-alano.html
