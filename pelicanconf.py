@@ -15,9 +15,16 @@ THEME='pelican-themes/gum'
 
 PLUGIN_PATHS = ['pelican-plugins']
 
+
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+
+ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+
 # Descrição dos plugins
 # - global_license - Cria a opção LICENSE que pode ser usada dentro do tema.
-PLUGINS = ['sitemap']
+PLUGINS = ['sitemap', 'permalinks']
 
 # Precisa iniciar o dicionário vazio antes de setar a chave-valor
 SITEMAP={}
