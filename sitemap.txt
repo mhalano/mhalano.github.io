@@ -7,8 +7,12 @@
 /categories.html
 /authors.html
 /archives.html
-/pages/about.html
-/first-post.html
+/about/
+/contact/
+/links/
+/now/
+/setup/
+/posts/2020/abr/22/first-post/
 /category/categoria.html
 /tag/tag.html
 /author/marcos-alano.html
