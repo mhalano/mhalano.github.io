@@ -1,5 +1,4 @@
 output/
-pelican-plugins/
 pelican-themes/
 __pycache__/
 venv/

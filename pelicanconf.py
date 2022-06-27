@@ -45,6 +45,20 @@ AUTHOR_FEED_RSS = 'feeds/{slug}.rss.xml'
 RSS_FEED_SUMMARY_ONLY = False
 
 
+# If your site is available via HTTPS, make sure SITEURL begins with https://
+RELATIVE_URLS = False
+
+
+DELETE_OUTPUT_DIRECTORY = True
+
+# Following items are often useful when publishing
+
+#DISQUS_SITENAME = ""
+#GOOGLE_ANALYTICS = ""
+
+
+
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
