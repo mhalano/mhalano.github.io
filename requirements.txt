@@ -1,0 +1,5 @@
+ghp-import
+minchin.pelican.plugins.nojekyll
+pelican[markdown] ~= 4.7
+pelican-pdf
+pelican-sitemap
