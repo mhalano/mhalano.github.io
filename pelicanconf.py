@@ -29,7 +29,7 @@ STATIC_PATHS = [
 
 EXTRA_PATH_METADATA = {
     'static/robots.txt': {'path': 'robots.txt'},
-    'static/security.txt': {'path': 'security.txt'}
+    'static/security.txt': {'path': 'security.txt'},
 }
 
 # Descrição dos plugins
@@ -43,12 +43,12 @@ SITEMAP = {
     "priorities": {
         "articles": 0.5,
         "indexes": 0.5,
-        "pages": 0.5
+        "pages": 0.5,
     },
     "changefreqs": {
         "articles": "monthly",
         "indexes": "daily",
-        "pages": "monthly"
+        "pages": "monthly",
     }
 }
 
@@ -87,6 +87,7 @@ DELETE_OUTPUT_DIRECTORY = True
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
 
+OUTPUT_PATH = 'output'
 
 
 
