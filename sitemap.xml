@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://mhalano.io/</loc>
-<lastmod>2026-01-26T13:02:00-00:00</lastmod>
+<lastmod>2026-01-26T13:06:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -20,35 +20,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://mhalano.io/archives.html</loc>
-<lastmod>2026-01-26T13:02:00-00:00</lastmod>
+<lastmod>2026-01-26T13:06:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mhalano.io/author/marcos-alano.html</loc>
-<lastmod>2026-01-26T13:02:00-00:00</lastmod>
+<lastmod>2026-01-26T13:06:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mhalano.io/authors.html</loc>
-<lastmod>2026-01-26T13:02:00-00:00</lastmod>
+<lastmod>2026-01-26T13:06:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mhalano.io/categories.html</loc>
-<lastmod>2026-01-26T13:02:00-00:00</lastmod>
+<lastmod>2026-01-26T13:06:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://mhalano.io/category/review.html</loc>
-<lastmod>2026-01-26T13:02:00-00:00</lastmod>
+<lastmod>2026-01-26T13:06:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -68,14 +68,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://mhalano.io/my-first-review-pt.html</loc>
-<lastmod>2010-12-03T10:20:00-02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-<xhtml:link rel="alternate" hreflang="en" ref="https://mhalano.io/posts/2010/12/03/my-first-review/"/>
-</url>
-
-<url>
 <loc>https://mhalano.io/now/</loc>
 <lastmod>2020-04-22T18:25:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -87,7 +79,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <lastmod>2010-12-03T10:20:00-02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
-<xhtml:link rel="alternate" hreflang="pt" ref="https://mhalano.io/my-first-review-pt.html"/>
+<xhtml:link rel="alternate" hreflang="pt" ref="https://mhalano.io/posts/2010/12/my-first-review-pt/"/>
+</url>
+
+<url>
+<loc>https://mhalano.io/posts/2010/12/my-first-review-pt/</loc>
+<lastmod>2010-12-03T10:20:00-02:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+<xhtml:link rel="alternate" hreflang="en" ref="https://mhalano.io/posts/2010/12/03/my-first-review/"/>
 </url>
 
 <url>
@@ -99,7 +99,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://mhalano.io/tags.html</loc>
-<lastmod>2026-01-26T13:02:00-00:00</lastmod>
+<lastmod>2026-01-26T13:06:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
