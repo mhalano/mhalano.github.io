@@ -1,5 +1,6 @@
 ghp-import
-minchin.pelican.plugins.nojekyll
+#minchin.pelican.plugins.nojekyll - não é necessário por que o makefile já chama o ghp-import com isso.
 pelican[markdown] ~= 4.11
+pelican-i18n-subsites
 pelican-pdf
 pelican-sitemap

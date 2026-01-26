@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+#from __future__ import unicode_literals
 
 #THEME='pelican-themes/pelican-bootstrap3'
 #JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
@@ -10,6 +10,7 @@ from __future__ import unicode_literals
 # Descrição dos plugins
 # - global_license - Cria a opção LICENSE que pode ser usada dentro do tema.
 #PLUGINS = ['permalinks','i18n_subsites','sitemap','pdf','minchin.pelican.plugins.nojekyll']
+PLUGINS = ['sitemap','pdf','minchin.pelican.plugins.nojekyll']
 
 AUTHOR = 'Marcos Alano'
 SITENAME = "Trust me! I'm a (DevOps) Engineer!"
@@ -19,18 +20,25 @@ PATH = "content"
 
 TIMEZONE = 'America/Sao_Paulo'
 
-DEFAULT_LANG = 'en_US'
-
+DEFAULT_LANG = 'en'
+LANGUAGES = {
+    'pt': 'Português',
+    'en': 'English',
+}
 # Feed generation is usually not desired when developing
 #CATEGORY_FEED_ATOM = None
 #TRANSLATION_FEED_ATOM = None
 #AUTHOR_FEED_ATOM = None
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
+PAGE_LANG_URL = '{slug}-{lang}/'
+PAGE_LANG_SAVE_AS = '{slug}-{lang}/index.html'
 
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-
+DEFAULT_LANG = 'en'
+ARTICLE_LANG_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}-{lang}/'
+ARTICLE_LANG_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}-{lang}/index.html'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 FEED_ALL_RSS = 'feeds/all.rss.xml'
@@ -102,3 +110,12 @@ AVATAR = "images/photo.jpg"
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+
+
+
+#I18N_SUBSITES = {
+#  'pt': {
+#    'SITENAME': 'Hezkej blog',
+#  }
+#}
+
