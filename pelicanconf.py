@@ -18,8 +18,18 @@ FEED_ALL_RSS = 'feeds/all.rss.xml'
 AUTHOR_FEED_RSS = 'feeds/{slug}.rss.xml'
 RSS_FEED_SUMMARY_ONLY = False
 
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = [
+    'images',
+    'static/CNAME',
+    'static/robots.txt',
+    'static/security.txt',
+]
+
+EXTRA_PATH_METADATA = {
+    'static/CNAME': {'path': 'CNAME'},
+    'static/robots.txt': {'path': 'robots.txt'},
+    'static/security.txt': {'path': 'security.txt'},
+}
 
 # Blogroll
 LINKS = (
